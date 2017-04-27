@@ -1,0 +1,165 @@
+ody { 
+width: 960px;
+}
+
+div {
+  height: 400px
+  background: linear-gradient (to bottom, #33ccff 0%, #ffffff 61%);
+}
+
+.header {
+  font-size: 14px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+
+}
+#namebox {
+  margin-left: 50px;
+}
+
+.your_name {
+  float: left;
+  background-color: #4aaaa5;
+  text-align: center;
+  padding: 5px;
+  color: white;
+
+}
+
+.nav {
+  float: right;
+  margin-right: 5%;
+  font-family: Arial;
+  color: #cccccc;
+}
+
+a:link {
+  text-decoration: none;
+  color: #36486b;
+}
+
+a:hover{
+  color: #fefbd8;
+  background-color: #36486b;
+}
+
+a:active {
+  text-decoration: underline;
+  background-color: green;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  float: left;
+  margin: 5px;
+  padding: 5px;
+}
+
+
+.background {
+   position: absolute;
+   z-index: -1;
+   border-top: 2px;
+   border-color: #777777;
+}
+
+h2 {
+  color: #4aaaa5;
+  padding-left: 20px;
+  border-bottom: solid 1px #cccccc;
+  
+}
+
+.aboutme {
+  background-color: #ffffff;
+  width: 650px;
+  float: left;
+  border: 1px;
+  margin-top: 2%; 
+  margin-left: 2%;
+ }
+
+.profilepic {
+  float: left;
+  margin: 0px 10px 10px 20px;
+}
+
+.port-text {
+  position: absolute;
+  background-color: #4aaaa5;
+  color: white;
+  font-size: 18px;
+  width: 200px;
+  text-align: center;
+  margin: 10px 25px;
+  padding: 20px 0px;
+  bottom: 35px;
+}
+
+
+p {
+  width: 620px;
+  padding-bottom: 10px;
+  margin: 20px 20px 10px 20px;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color: #777777;
+}
+
+.item{
+  width: 50%;
+  float: left;
+  position: relative;
+}
+
+.portfolio {
+  margin: 25px;
+}
+
+
+h3 {
+  color: #4aaaa5;
+  border-bottom: 2px solid #cccccc;
+}
+
+.connectlinks {
+  float: right;
+  background-color: white;
+  margin-right: 5%;
+  margin-top: 2%;
+  padding: 20px 20px 20px 20px;
+  border: 1px;
+  border-color: #cccccc;
+  
+}
+
+.clearfix-main{
+  clear: both;
+  content: "";
+  display: block;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.footer {
+  clear: both;
+  height: 100px;
+  background-color: #666666;
+  position: absolute;
+  bottom: 0;
+  width:960px;
+}
+
+footer {
+  text-align: center;
+  padding-top: 40px;
+  color: #cccccc;
+  border-top: 8px solid #4aaaa5;
+  font-size: 12px;
+  font-family: Arial;
+}
